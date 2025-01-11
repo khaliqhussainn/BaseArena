@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Protest+Guerrilla&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=Voces&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'MyLocalFont';
+  src: url('src/assets/FORCED SQUARE.ttf') format('truetype'); /* Replace with the correct file path */
+  font-weight: normal; /* Specify font weight */
+  font-style: normal; /* Specify font style */
+}
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('src\assets\Typography.otf') format('opentype'); /* Replace with the correct file path */
+  font-weight: normal; /* Specify font weight */
+  font-style: normal; /* Specify font style */
+}
+
+:root {
+  --font-sora:  "MyLocalFont", sans-serif;
+  --font-code: "MyCustomFont", monospace;
+  --font-grotesk: "Space Grotesk", sans-serif;
+
+  color-scheme: dark;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-[rgb(3,0,10)] text-n-1 text-base;
+  }
+}
+
+.rotate-45 {
+  @apply rotate-[45deg];
+}
+
+.rotate-90 {
+  @apply rotate-[90deg];
+}
+
+.rotate-135 {
+  @apply rotate-[135deg];
+}
+
+.rotate-180 {
+  @apply rotate-[180deg];
+}
+
+.rotate-225 {
+  @apply rotate-[225deg];
+}
+
+.rotate-270 {
+  @apply rotate-[270deg];
+}
+
+.rotate-315 {
+  @apply rotate-[315deg];
+}
+
+.rotate-360 {
+  @apply rotate-[360deg];
+}
+
+.-rotate-45 {
+  @apply rotate-[-45deg];
+}
+
+.-rotate-90 {
+  @apply rotate-[-90deg];
+}
+
+.-rotate-135 {
+  @apply rotate-[-135deg];
+}
+
+.-rotate-180 {
+  @apply rotate-[-180deg];
+}
+
+.-rotate-225 {
+  @apply rotate-[-225deg];
+}
+
+.-rotate-270 {
+  @apply rotate-[-270deg];
+}
+
+.-rotate-315 {
+  @apply rotate-[-315deg];
+}
+
+.-rotate-360 {
+  @apply rotate-[-360deg];
+}
+.loader {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top: 4px solid #ffffff;
+  border-radius: 50%;
+  width: 25px;
+  height: 24px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+/* Add this to your CSS file */
+.vertical-timeline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.vertical-timeline::before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.vertical-timeline-element {
+  position: relative;
+}
+
+.vertical-timeline-element-icon {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  margin-top: -20px; /* Adjust this value as needed */
+}
+
+.vertical-timeline-element:nth-child(even) .vertical-timeline-element-content {
+  left: 5%;
+  transform: translateX(50%);
+}
+
+.vertical-timeline-element:nth-child(odd) .vertical-timeline-element-content {
+  right: 5%;
+  transform: translateX(-50%);
+}
+
+.vertical-timeline-element-content {
+  position: relative;
+  width: 45%;
+  margin: 0 auto;
+}

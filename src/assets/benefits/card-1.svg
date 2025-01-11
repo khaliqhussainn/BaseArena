@@ -1,0 +1,57 @@
+<svg preserveAspectRatio="none" viewBox="0 0 384 366" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Glow effect -->
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="2" result="blur" />
+    <feComposite in="blur" operator="over" />
+  </filter>
+  
+  <!-- Noise texture -->
+  <filter id="noise">
+    <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch"/>
+    <feComposite operator="in" in2="SourceGraphic"/>
+  </filter>
+
+  <!-- Outer glow path -->
+  <path vector-effect="non-scaling-stroke" 
+        d="M32 1H319.453C328.037 1 336.238 4.5601 342.1 10.832L374.648 45.6545C380.015 51.3966 383 58.9629 383 66.8225V334C383 351.121 369.121 365 352 365H32C14.8792 365 1 351.121 1 334V32C1 14.8792 14.8792 1 32 1Z" 
+        stroke="url(#glowGradient)" 
+        stroke-width="1"
+        filter="url(#glow)"/>
+
+  <!-- Main border -->
+  <path vector-effect="non-scaling-stroke" 
+        d="M32 1H319.453C328.037 1 336.238 4.5601 342.1 10.832L374.648 45.6545C380.015 51.3966 383 58.9629 383 66.8225V334C383 351.121 369.121 365 352 365H32C14.8792 365 1 351.121 1 334V32C1 14.8792 14.8792 1 32 1Z" 
+        stroke="url(#borderGradient)" 
+        stroke-width="2"/>
+  
+  <!-- Subtle inner line -->
+  <path vector-effect="non-scaling-stroke" 
+        d="M32 1H319.453C328.037 1 336.238 4.5601 342.1 10.832L374.648 45.6545C380.015 51.3966 383 58.9629 383 66.8225V334C383 351.121 369.121 365 352 365H32C14.8792 365 1 351.121 1 334V32C1 14.8792 14.8792 1 32 1Z" 
+        stroke="url(#innerGradient)" 
+        stroke-width="0.5"
+        stroke-opacity="0.3"/>
+
+  <defs>
+    <!-- Glowing gradient -->
+    <linearGradient id="glowGradient" x1="0" y1="0" x2="384" y2="366" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0076ee" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#0076ee" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#0076ee" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <!-- Main border gradient -->
+    <linearGradient id="borderGradient" x1="192" y1="0" x2="192" y2="366" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0076ee"/>
+      <stop offset="0.3" stop-color="#0076ee" stop-opacity="0.8"/>
+      <stop offset="0.7" stop-color="#0076ee" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#0076ee" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <!-- Inner line gradient -->
+    <linearGradient id="innerGradient" x1="0" y1="183" x2="384" y2="183" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0076ee" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#0076ee"/>
+      <stop offset="1" stop-color="#0076ee" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="100" height="40" viewBox="0 0 200 200" xml:space="preserve">
+<desc>Created with Fabric.js 5.2.4</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
+<g transform="matrix(1 0 0 1 100 100)" id="0ea0f8f5-b4d6-4381-8989-882d1602f3a5"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-100" y="-100" rx="0" ry="0" width="200" height="200" />
+</g>
+<g transform="matrix(Infinity NaN NaN Infinity 0 0)" id="bed29213-90e6-42c2-af58-c68b1136abe3"  >
+</g>
+<g transform="matrix(1.26 0 0 1.26 299.44 201.05)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-182.05, -23.11)" d="M 182.285 30.9922 C 180.687 30.9922 179.308 30.6773 178.148 30.0476 C 176.995 29.4112 176.107 28.5064 175.484 27.3331 C 174.867 26.1532 174.559 24.7512 174.559 23.1271 C 174.559 21.5495 174.87 20.1707 175.493 18.9908 C 176.117 17.8042 176.995 16.8828 178.128 16.2266 C 179.262 15.5637 180.598 15.2322 182.136 15.2322 C 183.223 15.2322 184.217 15.4013 185.118 15.7393 C 186.02 16.0774 186.799 16.5779 187.455 17.2408 C 188.111 17.9036 188.622 18.7223 188.986 19.6967 C 189.351 20.6645 189.533 21.7749 189.533 23.0277 L 189.533 24.2408 L 176.259 24.2408 L 176.259 21.4169 L 185.009 21.4169 C 185.002 20.8999 184.88 20.4392 184.641 20.0348 C 184.403 19.6304 184.074 19.3156 183.657 19.0902 C 183.246 18.8582 182.772 18.7422 182.235 18.7422 C 181.691 18.7422 181.204 18.8648 180.773 19.1101 C 180.342 19.3487 180.001 19.6768 179.749 20.0945 C 179.497 20.5054 179.365 20.9728 179.351 21.4965 L 179.351 24.37 C 179.351 24.9931 179.474 25.54 179.719 26.0107 C 179.965 26.4747 180.313 26.8359 180.763 27.0945 C 181.214 27.353 181.751 27.4822 182.374 27.4822 C 182.805 27.4822 183.196 27.4226 183.547 27.3033 C 183.899 27.184 184.2 27.0083 184.452 26.7763 C 184.704 26.5443 184.893 26.2592 185.019 25.9212 L 189.484 26.0504 C 189.298 27.0514 188.89 27.9231 188.261 28.6655 C 187.637 29.4013 186.819 29.9747 185.805 30.3857 C 184.79 30.79 183.617 30.9922 182.285 30.9922 Z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1.26 0 0 1.26 56.16 130.67)"  >
+<polygon style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(172,106,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  points="15.21,-8.5 15.21,-13.71 5.59,-20 5.59,-15.98 11.93,-11.8 11.94,-8.6 8.99,-6.6 6.98,-8.07 6.98,-10.55 3.7,-12.8 3.7,-8.27 -1.5,-5.09 -1.5,3.34 -5.18,5.4 -7.06,3.93 -7.06,1.49 -4.83,-0.04 -4.83,-0.06 -4.83,-3.83 -8.85,-1.15 -11.92,-3.14 -14.72,-1.31 -10.34,1.69 -10.34,3.54 -13.5,5.67 -16.72,3.49 -16.72,-3.77 -11.94,-7.01 -11.93,-10.13 -5.8,-6.17 -0.64,-9.61 -3.78,-11.44 -5.84,-10.05 -10.32,-13.02 -5.27,-15.96 -0.89,-13.4 -0.89,-17.23 -5.26,-19.79 -15.21,-13.99 -15.21,-8.78 -20,-5.54 -20,5.26 -15.21,8.5 -15.21,13.71 -5.59,20 -5.59,15.98 -11.93,11.8 -11.94,8.6 -8.99,6.61 -6.98,8.07 -6.98,10.56 -3.7,12.8 -3.7,8.27 1.57,5.09 1.63,-3.33 5.18,-5.4 7.06,-3.92 7.06,-1.49 4.83,0.04 4.83,0.06 4.83,3.84 8.85,1.15 11.92,3.15 14.72,1.31 10.34,-1.69 10.34,-3.53 13.5,-5.67 16.72,-3.49 16.72,3.77 11.94,7.01 11.93,10.13 5.8,6.17 0.64,9.58 3.78,11.42 5.84,10.05 10.32,13.02 5.27,15.97 0.89,13.4 0.89,17.23 5.26,19.79 15.21,13.99 15.21,8.78 20,5.54 20,-5.26 " />
+</g>
+<g transform="matrix(0.24 0 0 0.24 120.67 130.67)" style="" id="6c1bff58-50c1-453f-933f-16637c82172a"  >
+		<text xml:space="preserve" font-family="Raleway" font-size="105" font-style="normal" font-weight="900" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(237,224,224); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-151.93" y="32.98" >Name</tspan></text>
+</g>
+</svg>
