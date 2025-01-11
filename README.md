@@ -25,15 +25,6 @@
 
 **NOTE:** Please make sure to keep your API keys and configuration values secure and do not expose them publicly.
 
-## :camera: Screenshots
-
-![AI ChatBot App](/.github/images/img1.png "AI ChatBot App")
-
-![Generative AI](/.github/images/img2.png "Generative AI")
-
-![Modern Animations](/.github/images/img3.png "Modern Animations")
-
-![Onboarding Section](/.github/images/img4.png "Onboarding Section")
 
 ## :gear: Tech Stack
 
